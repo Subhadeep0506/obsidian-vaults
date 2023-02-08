@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14cc99a42f312c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5086555480957,
-    "collapsed": true
+    "width": 246.5086555480957
   },
   "right": {
     "id": "9885246823342ad5",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md"
+                "file": "README.md"
               }
             }
           }
@@ -149,11 +161,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2e4b8f335ef50d9d",
+  "active": "14cc99a42f312c3f",
   "lastOpenFiles": [
+    "GodotDocs/04.Your first 3D game.md",
     "GodotDocs/02. Step by Step.md",
     "GodotDocs/01.Introduction.md",
-    "GodotDocs/04.Your first 3D game.md",
     "GodotDocs/03.Your first 2D game.md",
     "Godot's design philosophy.md",
     "Godot.md",
