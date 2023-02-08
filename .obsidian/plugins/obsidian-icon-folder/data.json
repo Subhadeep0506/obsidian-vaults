@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": "#e0e0e0",
     "recentlyUsedIcons": [
+      "FabConnectdevelop",
       "FabReact",
       "FabPlaystation",
       "FabPython"
@@ -21,5 +22,6 @@
   },
   "Django Tutorial": "FabPython",
   "GodotDocs": "FabPlaystation",
-  "React": "FabReact"
+  "React": "FabReact",
+  "NLP": "FabConnectdevelop"
 }
