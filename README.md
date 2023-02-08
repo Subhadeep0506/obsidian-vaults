@@ -1,0 +1,1 @@
+This repository is remote vault storage for my Obsidian notes.
