@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14cc99a42f312c3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "GodotDocs/01.Introduction.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "GodotDocs/01.Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "GodotDocs/01.Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,8 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "GodotDocs/01.Introduction.md"
               }
+            }
+          },
+          {
+            "id": "4896a8beaf30a537",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
@@ -147,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 202.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -161,9 +156,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "14cc99a42f312c3f",
+  "active": "2e4b8f335ef50d9d",
   "lastOpenFiles": [
     "GodotDocs/04.Your first 3D game.md",
+    "README.md",
     "GodotDocs/02. Step by Step.md",
     "GodotDocs/01.Introduction.md",
     "GodotDocs/03.Your first 2D game.md",
@@ -171,7 +167,6 @@
     "Godot.md",
     "01.md",
     "SQL Questions.md",
-    "Pandas Question.md",
-    "React/Kent C. Dods.md"
+    "Pandas Question.md"
   ]
 }
