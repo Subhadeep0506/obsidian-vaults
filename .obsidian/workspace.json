@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GodotDocs/01.Introduction.md",
+                "file": "GodotDocs/04.Your first 3D game.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GodotDocs/01.Introduction.md",
+                "file": "GodotDocs/04.Your first 3D game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GodotDocs/01.Introduction.md",
+                "file": "GodotDocs/04.Your first 3D game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GodotDocs/01.Introduction.md"
+                "file": "GodotDocs/04.Your first 3D game.md"
               }
             }
           },
@@ -157,10 +157,10 @@
   },
   "active": "2e4b8f335ef50d9d",
   "lastOpenFiles": [
+    "GodotDocs/01.Introduction.md",
     "GodotDocs/04.Your first 3D game.md",
     "README.md",
     "GodotDocs/02. Step by Step.md",
-    "GodotDocs/01.Introduction.md",
     "GodotDocs/03.Your first 2D game.md",
     "Godot's design philosophy.md",
     "Godot.md",
