@@ -13,7 +13,11 @@
       "name": "TextBundle"
     },
     {
-      "name": "PDF"
+      "name": "Typst"
+    },
+    {
+      "name": "PDF",
+      "customArguments": "--pdf-engine=/bin/pdflatex"
     },
     {
       "name": "Word (.docx)"
@@ -43,12 +47,14 @@
       "name": "OPML"
     }
   ],
+  "pandocPath": {
+    "linux": "/bin/pandoc"
+  },
   "defaultExportDirectoryMode": "Auto",
   "openExportedFile": true,
+  "lastEditName": "PDF",
   "lastExportDirectory": {
     "linux": "/home/subhadeep/Documents"
   },
-  "lastEditName": "PDF",
-  "version": "1.1.8",
-  "lastExportType": "Html"
+  "lastExportType": "PDF"
 }

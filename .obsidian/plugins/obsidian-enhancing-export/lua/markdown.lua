@@ -1,4 +1,4 @@
-package.path=package.path..";" ..debug.getinfo(1).source:match("(.*[/\\])"):sub(2) .. "?.lua"
+package.path=debug.getinfo(1).source:gsub('@',''):sub(0):match('(.*[/\\])'):sub(0) .. '?.lua' .. ';' .. package.path
 
 require("polyfill")
 local url = require('url')
@@ -6,7 +6,9 @@ local url = require('url')
 local pandoc=pandoc
 local PANDOC_STATE=PANDOC_STATE
 
-PANDOC_VERSION:must_be_at_least '2.17'
+PANDOC_VERSION:must_be_at_least '3.1.7'
+
+os.text = pandoc.text
 
 local PATH = pandoc.path
 local doc_dir = nil
@@ -16,14 +18,13 @@ if Mode == nil then
   Mode = 'default'
 end
 
-
 -- print("Mode: "..Mode)
 
 if PANDOC_STATE.output_file then
   local output_file = PANDOC_STATE.output_file
   doc_dir = PATH.directory(output_file)
   if PANDOC_WRITER_OPTIONS.variables["media_dir"] then
-    media_dir = PANDOC_WRITER_OPTIONS.variables["media_dir"]
+    media_dir = tostring(PANDOC_WRITER_OPTIONS.variables["media_dir"])
   else
     media_dir = PATH.split_extension(output_file)
     if Mode ~= 'hugo' then
@@ -207,11 +208,11 @@ function ProcessInternalLinks(elements)
   local linkDescription = {}
 
   for _, item in pairs(elements) do
-    if item.t == 'Str' and Starts_with(item.text, '[[#') then
+    if item.t == 'Str' and string.starts_with(item.text, '[[#') then
       in_section_link = true
       table.insert(linkDescription, string.sub(item.text, 4))
     elseif in_section_link then
-      if Ends_with(item.text, ']]') then
+      if string.ends_with(item.text, ']]') then
         table.insert(linkDescription, string.sub(item.text, 1, -3))
         insertLink(content, linkDescription)
         in_section_link = false

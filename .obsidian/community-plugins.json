@@ -1,7 +1,10 @@
 [
-  "obsidian-enhancing-export",
   "obsidian-pandoc",
-  "obsidian-icon-folder",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-git"
+  "obsidian-charts",
+  "image-captions",
+  "obsidian-enhancing-export",
+  "obsidian-style-settings",
+  "obsidian-git",
+  "obsidian-icon-folder"
 ]

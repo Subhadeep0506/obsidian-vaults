@@ -6,12 +6,11 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "tabSize": 2,
+  "tabSize": 4,
   "showIndentGuide": false,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-GB",
-    "en-US"
-  ],
-  "alwaysUpdateLinks": true
+  "spellcheckLanguages": null,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "showLineNumber": false
 }

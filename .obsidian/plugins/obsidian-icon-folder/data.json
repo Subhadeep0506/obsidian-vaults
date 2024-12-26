@@ -1,15 +1,16 @@
 {
   "settings": {
-    "migrated": true,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": "#e0e0e0",
     "recentlyUsedIcons": [
+      "LiNotebookText",
+      "RiStickyNoteFill",
+      "SiAndroid",
       "FabConnectdevelop",
-      "FabReact",
-      "FabPlaystation",
-      "FabPython"
+      "SiCss3"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -18,10 +19,22 @@
       "right": 4,
       "bottom": 0,
       "left": 0
-    }
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
   },
-  "Django Tutorial": "FabPython",
-  "GodotDocs": "FabPlaystation",
-  "React": "FabReact",
-  "NLP": "FabConnectdevelop"
+  "React": "SiReact",
+  "NLP": "FabConnectdevelop",
+  "DSA/Notes.md": "LiNotebookText"
 }

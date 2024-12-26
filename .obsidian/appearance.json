@@ -1,12 +1,13 @@
 {
-  "accentColor": "#6b9cff",
-  "interfaceFontFamily": "Helvetica Neue",
-  "textFontFamily": "Roboto,Ubuntu,Helvetica Neue",
-  "monospaceFontFamily": "Hack Nerd Font",
+  "accentColor": "#bc6bff",
+  "interfaceFontFamily": "SF Pro Display",
+  "textFontFamily": "Roboto,DejaVu Math TeX Gyre,Ubuntu,SF Pro Text,Times New Roman,Helvetica Neue",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,Hack Nerd Font",
   "cssTheme": "Things",
   "theme": "obsidian",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "style"
-  ]
+  ],
+  "nativeMenus": false
 }

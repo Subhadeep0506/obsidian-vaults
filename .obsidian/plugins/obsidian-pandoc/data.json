@@ -7,8 +7,8 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "link",
   "highDPIDiagrams": true,
-  "pandoc": null,
-  "pdflatex": null,
+  "pandoc": "/bin/pandoc",
+  "pdflatex": "/bin/pdflatex",
   "outputFolder": null,
   "extraArguments": "",
   "exportFrom": "md"

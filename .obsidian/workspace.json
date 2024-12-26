@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c16b36e451f6ac6b",
+        "id": "3937b0b91206bba1",
         "type": "tabs",
         "children": [
           {
-            "id": "2e4b8f335ef50d9d",
+            "id": "67e7eb7f28df0b2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
-                "mode": "preview",
+                "file": "DSA/Notes.md",
+                "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,26 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "8d669aa0364095ad",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5086555480957
+    "width": 252.5086555480957
   },
   "right": {
     "id": "9885246823342ad5",
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
+                "file": "ExpressJS and TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ExpressJS and TypeScript"
             }
           },
           {
@@ -102,10 +122,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md",
+                "file": "ExpressJS and TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ExpressJS and TypeScript"
             }
           },
           {
@@ -116,7 +138,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GodotDocs/04.Your first 3D game.md"
-              }
+                "file": "ExpressJS and TypeScript.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ExpressJS and TypeScript"
             }
           },
           {
@@ -134,7 +160,23 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "8259c47ac8761c9c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -142,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,20 +194,56 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e4b8f335ef50d9d",
+  "active": "67e7eb7f28df0b2c",
   "lastOpenFiles": [
-    "GodotDocs/01.Introduction.md",
-    "GodotDocs/04.Your first 3D game.md",
+    "Android/01.md",
+    "DSA/Notes.md",
+    "Android",
+    "DSA/11 INSERTION SORT-0001.jpg",
+    "ExpressJS and TypeScript.md",
+    "DSA",
+    "CNN Architectures.md",
+    "LLM Apps/Daily Mail Summarizer.md",
+    "LLM Apps",
+    "React/EpicReactNotes/2. React Hooks/2. useEffect 'persistent state'.md",
+    "React/EpicReactNotes/2. React Hooks/1. useState greeting.md",
+    "React/Kent C. Dods.md",
+    "Deep Reinforcement Learning/Unit - 1.md",
+    "Data Science Interview/2. Easy SQL Questions.md",
+    "Data Science Interview/1. Introduction.md",
+    "Data Science Interview",
     "README.md",
-    "GodotDocs/02. Step by Step.md",
-    "GodotDocs/03.Your first 2D game.md",
-    "Godot's design philosophy.md",
-    "Godot.md",
-    "01.md",
-    "SQL Questions.md",
-    "Pandas Question.md"
+    "Run your Node.js application on a headless Raspberry Pi.md",
+    "Computer Vision.md",
+    "Resume.md",
+    "Stanford LLM/Introduction.md",
+    "freeCodeCamp NodeJS Certification.md",
+    "JavaScript/01. Introduction.md",
+    "Azure AI Fundamental - Notes/Notes.md",
+    "Azure AI Fundamental - Notes",
+    "Soft Skills Questions.md",
+    "Frontend Development Libraries.md",
+    "React/EpicReactNotes/1. React Fundamentals/1. Basic JS Hello World.md",
+    "React/EpicReactNotes/React/React.useState().md",
+    "React/EpicReactNotes/React/ReactDOM.render().md",
+    "React/EpicReactNotes/1. React Fundamentals/2. Intro to raw React APIs.md",
+    "React/EpicReactNotes/Attachments/hook-flow.png",
+    "React/EpicReactNotes/Attachments/DOM-not-supported-props.png",
+    "React/EpicReactNotes/React",
+    "React/EpicReactNotes/LICENSE",
+    "React/EpicReactNotes/JavaScript/Utility",
+    "React/EpicReactNotes/JavaScript",
+    "React/EpicReactNotes/Attachments/where-to-put-react-state.png",
+    "React/EpicReactNotes/Attachments/standard-debug-information.png",
+    "React/EpicReactNotes/Attachments/improved-debug-information.png",
+    "React/EpicReactNotes/Attachments/Schermata 2020-12-26 alle 16.00.08 PM.png",
+    "React/EpicReactNotes/Attachments/Schermata 2020-12-26 alle 15.40.52 PM.png",
+    "React/EpicReactNotes/Attachments",
+    "Pasted image 20230413201452.png",
+    "Pasted image 20230413171539.png"
   ]
 }
